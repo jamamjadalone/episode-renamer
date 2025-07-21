@@ -1,0 +1,20 @@
+To use on Windows without Python:
+
+1. Install Python and PyInstaller with:
+
+pip install pyinstaller
+
+2. Save this script as episode_renamer.py
+
+Then run in CMD:
+
+python -m PyInstaller --onefile --windowed episode_renamer.py
+
+The .exe file will be generated in the dist/ folder.
+
+📌 Notes
+Rename logic supports: Episode 01, Ep_02, episode-03 part 01, etc.
+
+Only files with supported extensions like .mp4, .mkv, .srt are shown.
+
+Fully offline & portable.
