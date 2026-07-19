@@ -24,17 +24,15 @@ Perfect for organizing messy download folders (`Ep_09.mkv`, `Episode 05 Part 02.
 
 ---
 
-## ✨ What's New in v2.0
+## ✨ Features Overview
 
-This release adds a polished, animated interface on top of the original renaming logic:
-
-- 🎞️ **Fade-in + slide-in animation** when the preview window opens
+- 🎞️ **Fade-in + slide-in animation** when windows open
 - 🖱️ **Hover effects** on all buttons for tactile, responsive feedback
 - 📊 **Animated progress bar** with live status text while files are being renamed
 - 🌒 **Dark-themed UI** for a modern, easy-on-the-eyes look
 - 🖍️ **Row highlight on hover** in the file list for easier scanning
 - 🖲️ **Mouse-wheel scrolling** support in the preview list
-- 🧩 Same safe, reliable renaming logic as v1 — nothing about the core behavior changed
+- 🔒 Safe, reliable renaming — only selected files are ever touched
 
 ---
 
