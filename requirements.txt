@@ -1,0 +1,11 @@
+# Episode Renamer - Requirements
+# tkinter ships with the standard Python installer on Windows/macOS.
+# On Linux, install it via your package manager if missing:
+#   Ubuntu/Debian:  sudo apt-get install python3-tk
+#   Fedora:         sudo dnf install python3-tkinter
+#   Arch:           sudo pacman -S tk
+#
+# No external pip packages are required to RUN the app.
+# The line below is only needed if you plan to build a standalone .exe.
+
+pyinstaller>=6.0.0
