@@ -5,8 +5,8 @@
 
 import os
 import re
-import webbrowser
 import tkinter as tk
+import webbrowser
 from tkinter import filedialog, messagebox, ttk
 
 APP_TITLE = "Episode Renamer - by Jam Amjad Rasheed"
@@ -270,7 +270,7 @@ def show_preview_and_confirm():
         try:
             os.rename(os.path.join(folder_path, old), os.path.join(folder_path, new))
             renamed += 1
-        except Exception as e:
+        except OSError as e:
             print(f"Failed to rename {old}: {e}")
         progress["value"] = ((i + 1) / len(selected)) * 100
         status_label.config(text=f"Renaming {i + 1}/{len(selected)}: {new}")
